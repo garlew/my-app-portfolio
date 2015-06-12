@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="34dp"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:clickable="false"
+    android:background="#ff686868">
+
+    <TextView android:text="@string/nano" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:id="@+id/textView"
+        android:textColor="#ffc9c5cb"
+        android:textSize="@dimen/abc_text_size_small_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SpotifyApp"
+        android:id="@+id/buttonSS"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ScoresApp"
+        android:id="@+id/button"
+        android:layout_below="@+id/buttonSS"
+        android:layout_alignLeft="@+id/buttonSS"
+        android:layout_alignStart="@+id/buttonSS"
+        android:layout_alignRight="@+id/buttonSS"
+        android:layout_alignEnd="@+id/buttonSS"
+        android:layout_marginTop="10dp"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LibraryApp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BIBApp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/XYZApp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:onClick="onButtonClick"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CapstoneApp"
+        android:id="@+id/button5"
+        android:hint="Test"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#F08C35"
+        android:background="#ff616161"
+        android:width="190dp"
+        android:height="52dp"
+        android:onClick="onButtonClick"/>
+
+</RelativeLayout>
